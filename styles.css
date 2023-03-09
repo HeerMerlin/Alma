@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+#font {
+    color: aqua;
+    background-color: antiquewhite;
+    font-size: 40px;
+    max-width: 70ch;
+    font-family: 'Franklin Gothic Medium';
+    margin: 4cm;
+}
+.font-tittle {
+    font-size: 30px;
+    height: auto;
+    width: 500px;
+    padding: 10px;
+    display: inline;
+    background-color:beige;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#alto {
+    color: blueviolet;
+    background-color: aquamarine;
+}
+ul {
+    border: 2px solid rebeccapurple;
+    display: inline-flex;
+    padding: 5px;
+    list-style: none;
+    margin-left: 500px;
+}
+li {
+    padding: 30px;
+}
+img {
+    height: 500px;
+    width: 500px;
+}
+.inline {
+    display: inline;
+}
+.container {
+    border-color: 10px black;
+    background-color: azure;
+    border-bottom: 20px double rgb(23, 45, 125);
+}
+.box {
+    border: 2px black;
+}
+.padding {
+    display: inline-block;
+    margin: 10px;
+    background-color: antiquewhite;
+    color: aquamarine;
+}
+.padding a:hover{
+    background-color: black;
+    color: azure;
+}  
+.learning {
+    background-color: royalblue;
+    border-bottom: 2px black;
+    padding: 30px;
+    display: inline-block;
+}
