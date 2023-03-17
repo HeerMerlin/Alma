@@ -1,0 +1,301 @@
+/* body */
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: transparent;
+    flex-direction: column;
+    top: 0%;
+    left: 0%;
+    flex: 1;
+}
+/* title elements */
+.title {
+    align-items: center;
+    background-color: rgba(222,152,80,255);
+    height: fit-content;
+    gap: 10px;
+    justify-content: start;
+    display: flex;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    flex: 1;
+    border: 2px solid #1C1C1C;
+}
+.logo{ 
+    display: flex;
+    width: 150px;
+    margin: 10px;
+    height: 40px;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 150px;
+}
+.brand-alma{
+    display: flex;
+    flex: 0 0 auto;
+    width: 200px;
+    height: 40px;
+    margin-right: 500px;
+    margin: 10px;
+    justify-content: center;
+}
+.menu-box {
+    display: flex;
+    flex: 1 1 auto;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: end;
+    margin-right: 150px;
+    gap: 50px;
+    
+}
+/* second layer */
+
+.greeting {
+    height: 900px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.main-box{
+    height: 600px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 80%;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 1.5em;
+    box-shadow: 0 0 2em rgb(200, 200, 155);
+    justify-content: space-around;
+    
+}
+.box1 {
+    flex-direction: column;
+    height: 100%;
+    gap: 5px;
+    display: flex;
+    width: 500px;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+}
+.box2 {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    width: 700px;
+    background-image: url(images/vegan-salad.jpg);
+    align-items: center;
+
+}
+.box1 h4 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    align-items: center;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    color: antiquewhite;
+    padding: 0;
+    margin: 5px;
+    font-weight: 200;
+}
+.box1 p {
+    font-size: 2em;
+    flex: 1;
+    color: aliceblue;
+    text-align: center;
+}
+.box1 a {
+    font-size: 2em;
+    display: flex;
+    background-color: gold;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    align-self: center;
+    border-radius: 2em;
+    margin: 10px;
+    height: 80px;
+    margin-bottom: 60px;
+}
+
+/* third layer */
+
+.layer3 {
+    flex-direction: column;
+    flex: 1 0 auto;
+    display: flex;
+    height: 600px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    border: 2px solid rgba(222,152,80,255);
+}
+.tittlel3 {
+    flex: 1;
+    height: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    display: flex;
+}
+.tittlel3 h4 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    align-items: center;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    color: gold;
+    padding: 30px;
+    margin: 5px;
+    font-weight: 200;
+}
+.mainbx {
+    display: flex;
+    height: 620px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.background3{
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.background3 img {
+    height: 40%;
+    flex: 3;
+    border: 2px solid black;
+    border-radius: 20%;
+    box-shadow: 0 0 2em rgb(0, 0, 0);
+}
+.background3 h2{
+    
+    font-weight: 900;
+}
+.background3 a {
+    display: inline-block;
+}
+
+/* forth layer */
+
+.l4-container {
+    background-image: url(images/bakery.jpg);
+    display: flex;
+    height: 800px;
+    width: 100%; 
+    flex: 1;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.l4-moto h4{
+    font-weight: 200;
+    color: aliceblue;
+    text-shadow: #3F3F3F;
+    font-size: 5em;
+    font-family: cursive;
+}
+.l4-moto a {
+    flex: 1;
+    font-size: 1em;
+    justify-items: center;
+    display: block;
+    text-align: center;
+}
+.l4-moto {
+    margin: 10px;
+    justify-content: space-evenly;
+}
+/* fifth layer */
+.l5-container {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    display: flex;
+    padding: 10px;
+}
+.l5-box-left {
+    border: 2px solid black;
+    flex: 1;
+    display: flex;
+    height: 200px;
+}
+.distribution {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    justify-content: center;
+    background-color: aliceblue;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.email {
+    font-size: 1em;
+    flex-basis: 170px;
+    
+}
+.name {
+    font-size: 1em;
+}
+input {
+    display: block;
+}
+button {
+    margin: 12px;
+    display: block;
+    color: aqua;
+}
+.l5-box-right {
+    flex: 1;
+
+}
+
+/* sixth layer */
+
+.l6-container {
+    height: 50px;
+    background-color: rgba(222,152,80,255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.l6-container footer {
+    font-size: medium;
+}
